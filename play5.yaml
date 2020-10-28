@@ -1,0 +1,12 @@
+---
+- name: install python2 on ubuntu 18.04 instances
+  hosts: "*"
+  gather_facts: false
+  tasks:
+
+     - name: Transfer executable script script
+       copy: src=install.sh dest=/home/ubuntu/install.sh  mode=0777
+         
+     - name: Execute the script
+       script: sudo sh /home/ubuntu/install.sh
+
