@@ -1,10 +1,4 @@
 #!/usr/bin/env bash
-# https://developers.supportbee.com/blog/setting-up-cucumber-to-run-with-Chrome-on-Linux/
-# https://gist.github.com/curtismcmullan/7be1a8c1c841a9d8db2c
-# https://stackoverflow.com/questions/10792403/how-do-i-get-chrome-working-with-selenium-using-php-webdriver
-# https://stackoverflow.com/questions/26133486/how-to-specify-binary-path-for-remote-chromedriver-in-codeception
-# https://stackoverflow.com/questions/40262682/how-to-run-selenium-3-x-with-chrome-driver-through-terminal
-# https://askubuntu.com/questions/760085/how-do-you-install-google-chrome-on-ubuntu-16-04
 
 # Versions
 CHROME_DRIVER_VERSION=`curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE`
